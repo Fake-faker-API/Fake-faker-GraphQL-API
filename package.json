@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./graphqlLayer/index.js",
+    "start": "node index.js",
     "heroku-postbuild": "npm install --production"
   },
   "dependencies": {
