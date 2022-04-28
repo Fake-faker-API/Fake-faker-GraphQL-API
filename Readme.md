@@ -12,20 +12,30 @@ This is a GraphQL version of [Fake Faker REST API](https://github.com/Fake-faker
 Docs for the REST API can be found [here](https://fakefaker-docs.herokuapp.com])
 
 
-#### Install and Run
-
-- clone the repo:
-`git clone https://github.com/Fake-faker-API/Fake-faker-GraphQL-API.git`
-
-- cd into project folder and run:
-`npm install`
-
-- start the server:
-`npm start`
-
 ### How to use:
 
-- [Appolo Explorer](https://studio.apollographql.com/) (my personal favorite; requires account set up, which you can do with your GitHub account).
+- navigate to https://fakefaker-graphql.herokuapp.com/
+the page loads GraphQL IDE by default
+
+here is an example query:
+
+```
+query Users($rowNum: Int) {
+  users(rowNum: $rowNum) {
+    first_name
+    last_name
+    email
+    password
+    id
+  }
+}
+```
+In **QUERY VARIABLES** include**:
+```
+{
+  "rowNum": 16,
+}
+```
 
 
 - Curl
@@ -46,3 +56,4 @@ Docs for the REST API can be found [here](https://fakefaker-docs.herokuapp.com])
 
 
 [Here](https://www.apollographql.com/blog/graphql/examples/4-simple-ways-to-call-a-graphql-api/) is a great article by `APPOLOBLOG` called "4 Simple Ways to Call a GraphQL API" that gives an overview of methods above plus a few additional ones.
+
