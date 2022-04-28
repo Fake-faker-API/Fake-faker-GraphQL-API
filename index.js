@@ -1,11 +1,12 @@
 const { ApolloServer } = require('apollo-server');
-const { typeDefs } = require("./graphqlLayer/typeDefs");
-const { resolvers } = require("./graphqlLayer/resolvers");
-const config = require("./lib/config");
+const { typeDefs } = require("./graphql/typeDefs/typeDefs");
+const { resolvers } = require("./graphql/resolvers/resolvers");
+const config = require("./lib/config/config");
 
 const server = new ApolloServer({
   typeDefs,
-  resolvers
+  resolvers,
+  introspection: true
 });
 
 server.listen({ port: config.PORT ||  4000 }).then(({ url }) => {

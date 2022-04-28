@@ -65,12 +65,15 @@ const typeDefs = gql`
   }
   
   type Query {
-    addresses: [Address]
-    books: [Book]
-    companies: [Company]
-    movies: [Movie]
-    products: [Product]
-    users: [User]
+    addresses(rowNum: Int): [Address]
+    addressesFilterByStates(stateArr: [String!], rowNum: Int): [Address]
+    books(rowNum: Int): [Book]
+    booksFilterByGenre(genreArr: [String!], rowNum: Int): [Book]
+    companies(rowNum: Int): [Company]
+    movies(rowNum: Int): [Movie]
+    moviesFilterByGenre(genreArr: [String!], rowNum: Int): [Movie]
+    products(rowNum: Int): [Product]
+    users(rowNum: Int): [User]
   }
 `;
 
