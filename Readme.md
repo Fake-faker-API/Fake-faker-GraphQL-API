@@ -55,5 +55,3 @@ In **QUERY VARIABLES** include**:
 ```
 
 
-[Here](https://www.apollographql.com/blog/graphql/examples/4-simple-ways-to-call-a-graphql-api/) is a great article by `APPOLOBLOG` called "4 Simple Ways to Call a GraphQL API" that gives an overview of methods above plus a few additional ones.
-
