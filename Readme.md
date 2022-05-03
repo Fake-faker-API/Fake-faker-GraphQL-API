@@ -14,7 +14,9 @@ Docs for the **REST API** can be found [here](https://fakefaker-docs.herokuapp.c
 
 ### How to use:
 
-- navigate to https://fakefaker-graphql.herokuapp.com/
+- GraphQL IDE
+
+navigate to https://fakefaker-graphql.herokuapp.com/
 the page loads GraphQL IDE by default
 
 Example query:
@@ -38,7 +40,7 @@ In **QUERY VARIABLES** include the value for `rowNum`, for example:
 ```
 
 
-- Curl
+- [Curl](https://curl.se/)
 
 `Example request:`
 ```
