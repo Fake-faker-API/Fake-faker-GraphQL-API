@@ -17,7 +17,7 @@ Docs for the **REST API** can be found [here](https://fakefaker-docs.herokuapp.c
 - navigate to https://fakefaker-graphql.herokuapp.com/
 the page loads GraphQL IDE by default
 
-here is an example query:
+Example query:
 
 ```
 query Users($rowNum: Int) {
@@ -30,7 +30,7 @@ query Users($rowNum: Int) {
   }
 }
 ```
-In **QUERY VARIABLES** include:
+In **QUERY VARIABLES** include the value for `rowNum`, for example:
 ```
 {
   "rowNum": 16,
