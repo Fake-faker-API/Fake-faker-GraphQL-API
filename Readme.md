@@ -9,7 +9,7 @@
 ### This collection of open-source GraphQL APIs helps developers produce mock/fake data for their applications.
 
 This is a GraphQL version of [Fake Faker REST API](https://github.com/Fake-faker-API/Fake-faker-REST-API). 
-Docs for the **REST API** can be found [here](https://fakefaker-docs.herokuapp.com])
+Docs for the **REST API** can be found [here](https://fakefaker-docs.herokuapp.com]).
 
 
 ### How to use:
