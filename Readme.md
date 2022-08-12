@@ -53,8 +53,27 @@ In **QUERY VARIABLES** include the value for `rowNum`, for example:
 
 `Example Response:`
 
-```
-{"data":{"addresses":[{"id":"1","street_name":"Buckingham Drive","city":"Beach"},{"id":"2","street_name":"2nd Avenue","city":"Pryor"},{"id":"3","street_name":"2nd Street","city":"Phenix"}]}}
+```json
+{
+  "data": {
+    "addresses":
+    [{
+      "id":"1",
+      "street_name":"Buckingham Drive",
+      "city":"Beach"
+    },
+    {
+      "id":"2",
+      "street_name":"2nd Avenue",
+      "city":"Pryor"
+    },
+    {
+      "id":"3",
+      "street_name":"2nd Street",
+      "city":"Phenix"
+    }]
+  }
+}
 ```
 
 
