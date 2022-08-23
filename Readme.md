@@ -66,11 +66,6 @@ In **QUERY VARIABLES** include the value for `rowNum`, for example:
       "id":"2",
       "street_name":"2nd Avenue",
       "city":"Pryor"
-    },
-    {
-      "id":"3",
-      "street_name":"2nd Street",
-      "city":"Phenix"
     }]
   }
 }
